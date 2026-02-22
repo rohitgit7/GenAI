@@ -7,7 +7,7 @@ client = openai.OpenAI(
 )
 
 chat = client.chat.completions.create(
-    model = "gemini-2.0-flash",
+    model = "gpt-5-chat",
     messages = [{
       "role": "user",
       "content": "can I login to claude desktop using poe credentials?"
